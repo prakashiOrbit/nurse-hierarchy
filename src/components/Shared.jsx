@@ -2,7 +2,8 @@
 import React, { useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ActivityIndicator, TextInput, ScrollView, Switch, Modal } from 'react-native';
 import { NT, NSEV, NBED_COLORS } from '../constants/theme';
-import { NIcoHeart, NIcoDrop, NIcoLungs, NIcoPressure, NIcoThermo, NIcoActivity, NIcoBack, NIcoBell, NIcoClipList, NIcoUser, NIcoMonitor, NIcoPlus, NIcoFile, NIcoPill, NIcoCheck, NIcoAlert, NIcoCheckCirc, NIcoX, NIcoChevD, NIcoChevR, NIcoLogOut, NIcoSettings, NIcoShield, NIcoInfo, NIcoFingerp, NIcoLock, NIcoPhone, NIcoEdit, NIcoWifiOff } from './Icons';
+import { NIcoBed, NIcoBell, NIcoUser, NIcoClipList, NIcoHeart, NIcoActivity, NIcoDrop, NIcoThermo, NIcoPressure, NIcoLungs, NIcoMonitor, NIcoPlus, NIcoCheck, NIcoX, NIcoBack, NIcoChevD, NIcoChevR, NIcoEye, NIcoEyeOff, NIcoPhone, NIcoLock, NIcoSend, NIcoSearch, NIcoMenu, NIcoEdit, NIcoRefresh, NIcoPill, NIcoSyringe, NIcoAlert, NIcoInfo, NIcoFlag, NIcoTransfer, NIcoFingerp, NIcoLogOut, NIcoSettings, NIcoMap, NIcoFile, NIcoClock, NIcoCamera, NIcoShield, NIcoWifi, NIcoWifiOff, NIcoCheckCirc } from './Icons';
+export { NIcoBed, NIcoBell, NIcoUser, NIcoClipList, NIcoHeart, NIcoActivity, NIcoDrop, NIcoThermo, NIcoPressure, NIcoLungs, NIcoMonitor, NIcoPlus, NIcoCheck, NIcoX, NIcoBack, NIcoChevD, NIcoChevR, NIcoEye, NIcoEyeOff, NIcoPhone, NIcoLock, NIcoSend, NIcoSearch, NIcoMenu, NIcoEdit, NIcoRefresh, NIcoPill, NIcoSyringe, NIcoAlert, NIcoInfo, NIcoFlag, NIcoTransfer, NIcoFingerp, NIcoLogOut, NIcoSettings, NIcoMap, NIcoFile, NIcoClock, NIcoCamera, NIcoShield, NIcoWifi, NIcoWifiOff, NIcoCheckCirc };
 
 // --- Status Dot ---
 export function NStatusDot({ status = 'stable', size = 8 }) {

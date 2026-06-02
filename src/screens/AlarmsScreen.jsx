@@ -69,10 +69,10 @@ export function AlarmsScreen({ alarms, onAlarmTap, onMarkAll, onBack }) {
                         </View>
                         {p && <Text style={styles.patientName}>{p.name}</Text>}
                         <Text style={styles.descText}>{alarm.desc}</Text>
-                        <div style={{ flexDirection: 'row', gap: 8, marginTop: 4 }}>
+                        <View style={{ flexDirection: 'row', gap: 8, marginTop: 4 }}>
                           <NBtn size="sm" variant="ghost" onPress={() => onAlarmTap?.(alarm)}>View Bed</NBtn>
                           <NBtn size="sm" variant="secondary" onPress={() => {}}>Send to Doctor</NBtn>
-                        </div>
+                        </View>
                       </View>
                     </TouchableOpacity>
                   );

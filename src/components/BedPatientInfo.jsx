@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { NT, NSEV, NBED_COLORS } from '../constants/theme';
-import { NWARD, NPATIENTS, NINSTRUCTIONS, NACTIVITY } from '../constants/mockData';
+import { NWARD, NPATIENTS, NALARMS, NINSTRUCTIONS, NACTIVITY } from '../constants/mockData';
 import { NTopBar, NTabBar, NBtn, NSevBadge, NSection, NVitalCard, NAvatar, NStatusDot, NChip, NSheet } from './Shared';
-import { NIcoX, NIcoAlert, NIcoActivity, NIcoFile, NIcoBell, NIcoClipList, NIcoUser, NIcoMonitor, NIcoPlus, NIcoPill, NIcoPhone, NIcoBack, NIcoTransfer, NIcoChevD, NIcoChevR } from './Icons';
+import { NIcoX, NIcoAlert, NIcoActivity, NIcoFile, NIcoBell, NIcoClipList, NIcoUser, NIcoMonitor, NIcoPlus, NIcoPill, NIcoPhone, NIcoBack, NIcoTransfer, NIcoChevD, NIcoChevR, NIcoBed, NIcoFlag, NIcoInfo } from './Icons';
 
 export function PatientModalHeader({ patient, bed, onClose }) {
   return (
